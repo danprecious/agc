@@ -4,6 +4,9 @@ import { GlobalContext } from "@/stateManager/context";
 import { useContext } from "react";
 import { BiMenu } from "react-icons/bi";
 import { FaTimes } from "react-icons/fa";
+import Logo from "../../logo";
+import { links } from "@/utils/constants";
+import Link from "next/link";
 
 export const MobileNavComponent = () => {
   const { state, dispatch } = useContext(GlobalContext);
@@ -11,10 +14,20 @@ export const MobileNavComponent = () => {
   return (
     <>
       {state?.mobileNavOpen ? (
-        <div className="fixed top-0 right-0 w-full h-[100vh] flex justify-end bg-black z-50">
-          <div className="w-[70%] transition-all bg-white h-full">
-            <div className="flex justify-end">
-              <CLoseMobileNav />
+        <div className="fixed top-0 right-0 w-full h-[100vh] flex flex-col justify-center  items-center bg-black/50 z-50">
+          <div className="transition-all h-[10%] bg-white rounded-lg w-[90%] mb-5 flex justify-between items-center px-5">
+            <Logo />
+            <CLoseMobileNav />
+          </div>
+          <div className="h-[80%] w-[90%] bg-white rounded-lg ">
+            <div className="flex flex-col px-3 items-center my-2">
+              {links.map((link) => {
+                return (
+                  <Link className="py-5 my-3" href={link.href}>
+                    {link.name}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -34,7 +47,7 @@ export const OpenMobileNav = () => {
 
   return (
     <button onClick={openMobileNav}>
-      <BiMenu />
+      <BiMenu className="" />
     </button>
   );
 };
@@ -48,7 +61,7 @@ export const CLoseMobileNav = () => {
 
   return (
     <button onClick={closeMobileNav}>
-      <FaTimes className="bg-black text-white text-[2rem]" />
+      <FaTimes className="text-sm" />
     </button>
   );
 };

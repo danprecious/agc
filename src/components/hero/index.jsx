@@ -19,15 +19,15 @@ const Hero = () => {
       <div className="lg:flex justify-around">
         <div className="lg:w-[55%] lg:mx-5  flex flex-col justify-center lg:items- my-8">
           <h1 className="lg:text-left text-center font-heroFont lg:text-[3rem] xs:text-[1.5rem] text-[2rem] sm:text-[3rem] text-wrap hero-text py-4">
-          Creating Value, One Project at a Time
+            Creating Value, One Project at a Time
           </h1>
           <p className="lg:text-left text-center lg:w-[55% lg:my-3">
-          From property deals to cutting-edge construction and electrical services <br /> — your vision, our expertise
+            From property deals to cutting-edge construction and electrical
+            services <br /> — your vision, our expertise
           </p>
-          <div className="flex flex-col md:flex-row md:justify-start  items-center md:items-center my-5">
-            <div className="md:mr-5 my-3 hidden md:flex">
+          <div className="flex flex-col md:flex-row lg:justify-start justify-center  items-center md:items-center my-5">
+            
               <CustomButton href="/" text="Discover more" />
-            </div>
             
           </div>
         </div>

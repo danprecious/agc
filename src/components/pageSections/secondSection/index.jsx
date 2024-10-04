@@ -15,7 +15,7 @@ const SecondSection = () => {
           every step simple and rewarding. Let us help you secure the perfect
           property today.
         </p>
-        <div className="my-8">
+        <div className="my-8 flex justify-center lg:justify-start">
           <CustomButton href="/" text="See properties" />
         </div>
       </div>

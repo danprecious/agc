@@ -5,27 +5,27 @@ import React, { useEffect, useState } from "react";
 const sliderData = [
   {
     id: "1",
-    text: "lorem -Red",
+    text: "l",
     color: "red",
   },
   {
     id: "2",
-    text: "lorem -Blue",
+    text: "l",
     color: "blue",
   },
   {
     id: "3",
-    text: "lorem -Orange",
+    text: "l",
     color: "amber",
   },
   {
     id: "4",
-    text: "lorem -Yellow",
+    text: "l",
     color: "yellow",
-  },
+  }, 
   {
     id: "5",
-    text: "lorem -Green",
+    text: "l",
     color: "green",
   },
 ];

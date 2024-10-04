@@ -2,7 +2,8 @@
 
 import { partnerships } from "@/utils/constants";
 import { useState } from "react";
-
+import { gallery } from "@/utils/constants";
+ 
 const ServiceDescription = ({ data, activeDescription }) => {
   const [active, setActive] = useState(activeDescription);
 
@@ -14,7 +15,7 @@ const ServiceDescription = ({ data, activeDescription }) => {
     setActive(key);
   };
   return (
-    <div className="lg:w-[86%]">
+    <div className="lg:w-[86%] w-full">
       <div className="overflow-x-auto w-full flex">
         {Object.keys(data).map((key) => {
           return (
@@ -42,7 +43,7 @@ const ServiceDescription = ({ data, activeDescription }) => {
                     <h3 className="py-2 font-bold text-[1.2rem]">
                       {partnership.title}
                     </h3>
-                    <p className="py-5">{partnership.description}</p>
+                    <p className="py-5 ">{partnership.description}</p>
                   </div>
                 );
               })}
