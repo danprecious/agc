@@ -24,7 +24,7 @@ const SignInForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/adminSignIn",
+        "/api/adminSignIn",
         data,
         {
           headers: {
