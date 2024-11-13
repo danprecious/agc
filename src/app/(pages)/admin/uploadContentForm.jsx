@@ -40,7 +40,7 @@ const UploadContentForm = () => {
     formData.append("state", data.state);
 
     const response = await axios.post(
-      "http://localhost:3000/api/uploadContent",
+      "api/uploadContent",
       formData,
       {
         headers: {
