@@ -1,12 +1,12 @@
-import HeroSection from "@/components/hero";
-import ContactSection from "@/components/pageSections/contactSection";
-import FifthSection from "@/components/pageSections/fifthSection";
-import FirstSection from "@/components/pageSections/firstSection";
-import FourthSection from "@/components/pageSections/fourthSection";
-import SecondSection from "@/components/pageSections/secondSection";
-import ThirdSection from "@/components/pageSections/thirdSection";
-import SectionLayout from "@/components/sectionLayout";
-import CustomButton from "@/components/utilities/button";
+import HeroSection from "@/app/components/hero";
+import ContactSection from "@/app/components/pageSections/contactSection";
+import FifthSection from "@/app/components/pageSections/fifthSection";
+import FirstSection from "@/app/components/pageSections/firstSection";
+import FourthSection from "@/app/components/pageSections/fourthSection";
+import SecondSection from "@/app/components/pageSections/secondSection";
+import ThirdSection from "@/app/components/pageSections/thirdSection";
+import SectionLayout from "@/app/components/sectionLayout";
+import CustomButton from "@/app/components/utilities/button";
 
 const Homepage = () => {
   return (
