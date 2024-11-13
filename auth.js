@@ -1,6 +1,8 @@
 import { getUserByEmail } from "@/app/actions/getUserByEmail";
 import prisma from "@/app/lib/globalPrisma";
 
+
+
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
