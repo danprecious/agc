@@ -22,7 +22,7 @@ const ContactSection = () => {
 
   return (
     <section className="lg:flex justify-between">
-      <div className="lg:w-[55%] md:py-14 relative lg:px-10 px-4 py-4">
+      <div className="lg:w-[55%] md:py-14 relative lg:px-10 py-4">
         <div className="flex justify-end ">
           <div className="md:w-[80%] w-[100%] h-[20em] md:mr-6 mx-2 overflow-hidden rounded-lg  ">
             <Image
@@ -64,10 +64,10 @@ const ContactSection = () => {
           <div></div>
         </div>
       </div>
-      <div className="lg:w-[40%] flex flex-col justify-center px-2 md:px-6 my-10 lg:my-0">
+      <div className="lg:w-[40%] w-full flex flex-col justify-center md:px-6 my-10 lg:my-0">
         <form
           onSubmit={""}
-          className="w-100 flex flex-col py-10 px-5 shadow-lg"
+          className=" flex flex-col py-10 w-full px-5 shadow-lg"
         >
           <input
             type="text"

@@ -15,7 +15,7 @@ const heroFont = localFont({
 const SectionLayout = ({ children, text }) => {
   return (
     <section
-      className={`${heroFont.variable} lg:px-20 md:px-12 px-6 py-6 lg:py-10 lg:my-20 my-10`}
+      className={`${heroFont.variable} lg:px-20 md:px-12 px-3 py-6 lg:py-10 lg:my-20 my-10`}
     >
       <div className="flex justify-center">
         <h1 className="font-heroFont lg:text-[2.8rem] text-[2rem] font-semibold text-center lg:w-[80%] py-6 mb-8">
