@@ -7,8 +7,8 @@ import GlobalContextProvider from "@/app/stateManager/context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dan Precious",
-  description: "A Javascript Developer, ReactJs || NextJS || NodeJs",
+  title: "AGC",
+  description: "A company that deals on electrical works, building/construction and as property sales",
 };
 
 export default function RootLayout({ children }) {
