@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import CustomButton from "../utilities/button";
 import Image from "next/image";
 
+import images from "../utilities/data/images.json";
+
 const heroFont = localFont({
   // recoleta-regulardemo.otf
   // octoberdreams.otf
@@ -36,7 +38,7 @@ const Hero = () => {
             width={1000}
             height={1000}
             alt="hero-image"
-            src="/hero5.jfif"
+            src={images.hero}
             className="object-cover w-full h-full bg-blend-hard-light grayscale"
           />
         </div>

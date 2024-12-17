@@ -23,7 +23,7 @@ export const MobileNavComponent = () => {
             <div className="flex flex-col px-3 items-center my-2">
               {links.map((link) => {
                 return (
-                  <Link key={link.id} className="py-5 my-3" href={link.href}>
+                  <Link key={link.id} className="py-5 my-3 z-50" href={link.href}>
                     {link.name}
                   </Link>
                 );

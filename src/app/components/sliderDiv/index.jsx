@@ -77,7 +77,7 @@ const SliderComponent = () => {
       <div
         className={`w-[86%] relative transition-all overflow-hidden bg-${sliderData[activeSlide].color}-500 h-full rounded-3xl text-center  text-[2rem]`}
       >
-      <div className="bg-black absolute w-full h-full z-40 opacity-70"></div>
+      <div className="bg-black absolute w-full h-full z-30 opacity-70"></div>
         <Image
           width={1000}
           height={1000}
@@ -85,7 +85,7 @@ const SliderComponent = () => {
           src={sliderData[activeSlide]?.bg}
           className={`object-cover relative  w-full h-full animate-in transition-all duration-1000 backdrop-blur-lg `}
         />
-        <p className="absolute top-[40%] left-[10%]  right-[10%] z-50">
+        <p className="absolute top-[40%] left-[10%]  right-[10%] z-40">
           <span className="relative font-extrabold text-[2.5rem] text-white">{sliderData[activeSlide]?.text || "loading"}</span>
         </p>
       </div>
