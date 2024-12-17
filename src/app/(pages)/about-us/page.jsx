@@ -1,13 +1,17 @@
 import PageLayout from "@/app/components/pageLayout";
+import Image from "next/image";
+import images from "../../components/utilities/data/images.json";
+import SectionLayout from "@/app/components/sectionLayout";
+import ContactSection from "@/app/components/pageSections/contactSection";
 
 const AboutPage = () => {
   return (
-    <div className="lg:px-[10.5rem] px-4 justify-center flex">
-      <div className="">
+    <div className="  justify-center ">
+      <div className="lg:px-[10.5rem] px-4">
         <div>
           <h1 className="font-black lg:text-[5rem] text-[2rem]">
             Excellence in every detail,{" "}
-            <span className="text-blue-700">customer's Taste...</span>
+            <span className="text-amber-900">customer's Taste...</span>
           </h1>
         </div>
 
@@ -33,7 +37,15 @@ const AboutPage = () => {
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:my-32 my-8">
           <div className="lg:w-[50%] w-full lg:mr-8">
-            <div className="h-[25em] bg-blue-600 rounded-lg"></div>
+            <div className="h-[25em] rounded-lg overflow-hidden">
+              <Image
+                width={1000}
+                height={1000}
+                alt="hero-image"
+                src={images.aboutPage1}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <div className=" lg:w-[50%] w-full my-4">
             <h2 className="font-bold text-[1.1rem] lg:text-[1.5rem] my-4">
@@ -83,11 +95,23 @@ const AboutPage = () => {
               AGC services
             </p>
           </div>
-          <div className="lg:w-[50%] w-full lg:mr-8">
-            <div className="h-[25em] bg-blue-600 rounded-lg"></div>
+          <div className="lg:w-[50%] w-full lg:ml-8">
+            <div className="h-[25em]  rounded-lg overflow-hidden">
+              <Image
+                width={1000}
+                height={1000}
+                alt="hero-image"
+                src={images.aboutPage2}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
         </div>
+
       </div>
+        <SectionLayout text="Do Business With Us Today">
+          <ContactSection />
+        </SectionLayout>
     </div>
   );
 };

@@ -1,8 +1,10 @@
 "use client";
+import SectionLayout from "@/app/components/sectionLayout";
 import { gallery } from "./galleryData";
 import axios from "axios";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import ContactSection from "@/app/components/pageSections/contactSection";
 
 const Gallery = () => {
   const [active, setActive] = useState("Electrical works");
@@ -71,8 +73,8 @@ const Gallery = () => {
     <div className="px-3 lg:px-16">
       <div className="lg:w-[70%]">
         <h1 className="font-black lg:text-[4rem] text-[2rem] ">
-          A show of <span className="text-blue-700">our works</span> and{" "}
-          <span className="text-blue-700">property</span> you can buy...
+          A show of <span className="text-amber-900">our works</span> and{" "}
+          <span className="text-amber-900">property</span> you can buy...
         </h1>
       </div>
 
@@ -134,6 +136,9 @@ const Gallery = () => {
           </div>
         )}
       </div>
+      <SectionLayout text="Do Business With Us Today">
+          <ContactSection />
+        </SectionLayout>
     </div>
   );
 };

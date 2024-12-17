@@ -1,4 +1,4 @@
-import HeroSection from "@/app/components/hero";
+import Hero from "@/app/components/hero";
 import ContactSection from "@/app/components/pageSections/contactSection";
 import FifthSection from "@/app/components/pageSections/fifthSection";
 import FirstSection from "@/app/components/pageSections/firstSection";
@@ -12,15 +12,15 @@ const Homepage = () => {
   return (
     <>
       <div className="">
-        <HeroSection />
+        <Hero />
         <SectionLayout text="Our Specialization">
           <FirstSection />
         </SectionLayout>
-        <SectionLayout text="Own Properties Easily With Us">
-          <SecondSection />
-        </SectionLayout>
         <SectionLayout text="Partner With Us">
           <ThirdSection />
+        </SectionLayout>
+        <SectionLayout text="Own Properties Easily With Us">
+          <SecondSection />
         </SectionLayout>
         <SectionLayout text="What Our Clients Say">
           <FifthSection />

@@ -16,7 +16,7 @@ export async function cloudinaryUpload(file) {
       folder: "agcUploads",
     });
 
-    console.log("file uploaded sucessfulyy", uploadResult);
+    console.log("file uploaded sucessfully", uploadResult);
     return uploadResult.public_id;
   } catch (error) {
     console.error(error);

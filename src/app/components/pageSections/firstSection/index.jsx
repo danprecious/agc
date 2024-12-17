@@ -1,5 +1,6 @@
 import CustomButton from "@/app/components/utilities/button";
 import React from "react";
+import images from "../../utilities/data/images.json";
 import {
   FaBuilding,
   FaHome,
@@ -7,6 +8,7 @@ import {
   FaScrewdriver,
   FaTools,
 } from "react-icons/fa";
+import Image from "next/image";
 
 const FirstSection = () => {
   const listData = [
@@ -17,7 +19,7 @@ const FirstSection = () => {
       listText:
         "Power up your projects with our expert electrical services. From installations to maintenance, we ensure safety and efficiency every step of the way.",
     },
-  
+
     {
       id: "2",
       icon: <FaHome />,
@@ -25,7 +27,7 @@ const FirstSection = () => {
       listText:
         "Bringing your vision to life with cutting-edge construction solutions. From residential builds to commercial projects, we construct spaces that stand the test of time.",
     },
-    
+
     {
       id: "3",
       icon: <FaRegBuilding />,
@@ -34,17 +36,24 @@ const FirstSection = () => {
         "Find your dream property or secure a great investment with our seamless property buying, selling, and leasing services. Your next great opportunity starts here.",
     },
   ];
-  
 
   return (
-    <section className="lg:flex justify-between">
+    <section className="lg:flex justify-between ">
       <div className="lg:w-[50%]">
-        <div className="md:w-[90%] w-full md:h-full h-[20em] bg-emerald-900"></div>
+        <div className="md:w-[90%] w-full md:h-full h-[20em] rounded-md  overflow-hidden">
+          <Image
+            width={1000}
+            height={1000}
+            alt="hero-image"
+            src={images.ourSpecialization}
+            className="object-cover w-full h-full grayscale"
+          />
+        </div>
       </div>
       <div className="lg:w-[50%] ">
         <ul>
           {listData.map((data, index) => {
-            return (
+            return ( 
               <li key={data.id} className="my-5">
                 <p className="py-2 font-semibold text-[1.1rem] flex items-center">
                   <span className="mr-3 text-[1.7rem]">{data.icon}</span>
@@ -61,5 +70,3 @@ const FirstSection = () => {
 };
 
 export default FirstSection;
-
-

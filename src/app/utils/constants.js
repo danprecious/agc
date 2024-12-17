@@ -69,19 +69,19 @@ export const services = {
       title: "Electrical Installation Services",
       description:
         "Our electrical installation services cater to both residential and commercial needs, ensuring that all systems are set up safely and efficiently. Our qualified electricians are equipped with the latest tools and technology to handle a variety of installations, from lighting fixtures to complex wiring systems. We prioritize safety and compliance with all regulations, ensuring that every installation meets local and national electrical codes. \n\nBefore commencing any installation, we conduct thorough assessments to understand your specific requirements, allowing us to provide tailored solutions that suit your space and lifestyle. Our team works diligently to minimize disruption during the installation process, ensuring a smooth and efficient experience for our clients. By choosing our electrical installation services, you can be confident that your systems will operate reliably and safely for years to come.",
-      image: "electrical_image1",
+      image: "/services1",
     },
     {
       title: "Electrical Maintenance and Repair",
       description:
         "Preventative maintenance and timely repairs are crucial for ensuring the longevity and safety of electrical systems. Our electrical maintenance and repair services are designed to address any issues promptly, minimizing downtime and preventing costly disruptions. Our experienced technicians perform routine inspections, identifying potential problems before they escalate. \n\nIn the event of a failure, we offer quick and efficient repair services, diagnosing issues accurately and providing effective solutions. Our commitment to customer satisfaction means that we prioritize clear communication and transparency throughout the process, ensuring that you are informed about the nature of repairs and any associated costs. Trust our team to keep your electrical systems in peak condition, providing peace of mind and reliability.",
-      image: "electrical_image2",
+      image: "/services2",
     },
     {
       title: "Energy Efficiency Solutions",
       description:
         "In today's world, energy efficiency is more important than ever. Our energy efficiency solutions help clients reduce their energy consumption and costs while promoting sustainability. We offer comprehensive assessments of your current systems, identifying areas where improvements can be made. Our experts will recommend energy-efficient upgrades, such as LED lighting, smart thermostats, and high-efficiency appliances. \n\nWe also provide assistance with renewable energy options, including solar panel installations and battery storage solutions. By implementing our energy efficiency solutions, you can lower your carbon footprint, save on energy bills, and contribute to a more sustainable future. Our goal is to create customized plans that align with your budget and energy needs, ensuring optimal performance and savings.",
-      image: "electrical_image3",
+      image: "/services3",
     },
   ],
   "Building and Construction": [
@@ -89,19 +89,19 @@ export const services = {
       title: "Residential Construction Services",
       description:
         "Our residential construction services are tailored to meet the diverse needs of homeowners looking to build their dream homes. We manage the entire construction process, from initial design and planning through to final touches, ensuring that every detail aligns with your vision. Our team of experienced professionals collaborates closely with clients to create personalized plans that reflect their unique style and requirements. \n\nWe focus on quality craftsmanship, utilizing the best materials and practices to ensure durability and aesthetics. Throughout the construction process, we maintain open communication with clients, providing regular updates and ensuring transparency in timelines and budgets. By choosing our residential construction services, you can trust that your project will be completed on time and to your satisfaction.",
-      image: "building_image1",
+      image: "/services1",
     },
     {
       title: "Commercial Construction Services",
       description:
         "Our commercial construction services are designed to meet the needs of businesses and organizations looking to build or renovate their facilities. We understand that commercial projects require meticulous planning and execution to minimize disruptions and meet strict deadlines. Our team works closely with clients to develop comprehensive project plans that address all aspects of construction, including budgeting, timelines, and compliance with zoning regulations. \n\nWe specialize in a wide range of commercial projects, including office buildings, retail spaces, and industrial facilities. Our commitment to quality means that we adhere to the highest standards of construction, ensuring that every project is completed efficiently and effectively. With our commercial construction services, you can focus on your business while we handle the details.",
-      image: "building_image2",
+      image: "/services2",
     },
     {
       title: "Renovation and Remodeling",
       description:
         "Our renovation and remodeling services are perfect for homeowners and businesses looking to breathe new life into their spaces. Whether you're updating a kitchen, expanding a living area, or renovating an office, our team is here to transform your ideas into reality. We specialize in creating functional and aesthetically pleasing spaces that enhance the overall value and appeal of your property. \n\nDuring the renovation process, we prioritize communication and collaboration, ensuring that clients are involved in every step. Our skilled craftsmen use high-quality materials and techniques to deliver stunning results that reflect your vision. By choosing our renovation and remodeling services, you can create spaces that inspire and meet your evolving needs.",
-      image: "building_image3",
+      image: "/services3",
     },
   ],
   "Sales and Hiring": [
@@ -109,19 +109,19 @@ export const services = {
       title: "Property Sales Services",
       description:
         "Our property sales services are designed to connect clients with their ideal properties, whether they are buying or selling. We leverage our extensive market knowledge and industry expertise to provide clients with comprehensive support throughout the sales process. Our team conducts detailed market analyses to help sellers price their properties competitively and assists buyers in finding properties that match their criteria. \n\nWe utilize effective marketing strategies, including professional photography, virtual tours, and targeted advertising, to showcase properties and attract potential buyers. Our commitment to client satisfaction means that we provide personalized attention, ensuring that clients receive guidance tailored to their specific needs. By partnering with us for your property sales needs, you can achieve optimal results with confidence.",
-      image: "hiring_image1",
+      image: "/services1",
     },
     {
       title: "Leasing Services",
       description:
         "Our leasing services are focused on connecting property owners with qualified tenants, ensuring that both parties have a smooth and positive experience. We conduct thorough tenant screenings, including background checks and credit evaluations, to ensure that property owners find reliable tenants. Our team handles all aspects of the leasing process, from advertising available properties to negotiating lease terms and preparing contracts. \n\nWe provide ongoing support throughout the leasing period, addressing any questions or concerns from both tenants and property owners. By choosing our leasing services, you can maximize your rental income while minimizing the stress associated with managing rental properties.",
-      image: "hiring_image2",
+      image: "/services2",
     },
     {
       title: "Business Consulting for Sales Growth",
       description:
         "Our business consulting services are designed to help organizations identify growth opportunities and develop strategies for success in sales and hiring. We work closely with clients to analyze their current processes, identify inefficiencies, and implement solutions that drive sales performance. Our consultants provide valuable insights into market trends, customer behavior, and competitive analysis, equipping clients with the knowledge they need to make informed decisions. \n\nWe emphasize a collaborative approach, engaging with stakeholders to ensure that strategies align with overall business goals. By choosing our business consulting services, you can unlock your organization's potential, increase revenue, and achieve sustainable growth.",
-      image: "hiring_image3",
+      image: "/services3",
     },
   ],
 };

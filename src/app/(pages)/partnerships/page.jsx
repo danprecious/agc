@@ -2,6 +2,8 @@ import PageLayout from "@/app/components/pageLayout";
 import ServiceDescription from "@/app/components/servicesDescription";
 import React from "react";
 import { partnerships } from "@/app/utils/constants";
+import SectionLayout from "@/app/components/sectionLayout";
+import ContactSection from "@/app/components/pageSections/contactSection";
 
 const PartnerShips = () => {
   return (
@@ -12,6 +14,9 @@ const PartnerShips = () => {
           activeDescription={"Electrical partnerships"}
         />
       </div>
+      <SectionLayout text="Do Business With Us Today">
+          <ContactSection />
+        </SectionLayout>
     </PageLayout>
   );
 };
